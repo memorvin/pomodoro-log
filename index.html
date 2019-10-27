@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>pomodoro-log</title>   
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="clear"> 
+          <i class="fa fa-refresh"></i>
+        </div>
+<!-- pomodoro timer -->
+        <div class="flex-container" id="pomodoro">
+          <div id="pomodoro-timer">
+            <span id="pomodoro-timer-min">25</span>:<span id="pomodoro-timer-sec">00</span>
+          </div>
+          <button id="pomodoro-button">start pomodoro</button>
+        </div>
+      </div>
+<!-- content -->
+      <div class="content">
+          <ul id="list">
+          <!-- <li class="item">
+              <img class="tomato" src="image/tomato.svg" job="complete" id="0"></i>
+              <p class="text">Drink Coffee</p>
+              <i class="fa fa-times-circle de" job="delete" id="0"></i> 
+          </li> -->
+          </ul>
+      </div>
+<!-- add -->
+      <div class="add-to-do">
+          <i class="fa fa-edit"></i>
+          <input type="text" id="input" placeholder="Today I want to...">
+      </div> 
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+
+</html>
